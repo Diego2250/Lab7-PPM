@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInFragment">
+    tools:context=".HomeFragment"
+    android:backgroundTint="@color/white">
 
 
     <TextView
@@ -22,23 +23,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/mensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Hola!"
+        android:textAlignment="center"
+        android:text="@string/temporal"
         app:layout_constraintEnd_toEndOf="@+id/titulo"
         app:layout_constraintStart_toStartOf="@+id/titulo"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
     <Button
+        android:id="@+id/update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/actualizar_perfil"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/mensaje"
+        app:layout_constraintStart_toStartOf="@+id/mensaje"
+        app:layout_constraintTop_toBottomOf="@+id/mensaje"
         android:backgroundTint="@color/orage"/>
 
 

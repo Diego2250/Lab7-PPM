@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInFragment">
+    tools:context=".newAccountFragment">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputLayout_loginfragment_email"
@@ -15,7 +15,7 @@
         android:hint="@string/correo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/NuevaCuenta"
         android:layout_width="325sp"
         android:layout_height="55sp"
         android:layout_marginVertical="20dp"
